@@ -7,6 +7,10 @@ body {
   text-align: center;
 }
 
+div {
+  display: block;
+}
+
 .flex-container {
   display: flex;
   justify-content: center;
@@ -43,8 +47,23 @@ a {
   color: seashell;
 }
 
-div {
-  display: block;
+.main {
+  padding-top: 69px;
+  opacity: 0.9;
+  width: 1200px;
+  margin: auto;
+}
+
+#mission {
+  height: 700px;
+  background-image: url("../../resources/images/img-mission-background.jpg");
+  padding-top: 70px;
+}
+
+#mission .content {
+    margin: auto;
+    background-color: black;
+    width: 100%;
 }
 
 /* Contact Div */
@@ -52,11 +71,19 @@ div {
   height: 200px;
 }
 
-h2 {
+h2, h3, h4 {
   margin: 0;
   padding: 10px;
+}
+
+h2 {
   display: block;
   font-size: 1.5em;
+  font-weight: bold;
+}
+
+h4 {
+  display: block;
   font-weight: bold;
 }
 
