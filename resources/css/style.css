@@ -11,6 +11,29 @@ div {
   display: block;
 }
 
+
+h2, h3, h4 {
+  margin: 0;
+  padding: 10px;
+}
+
+h2 {
+  display: block;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+h4 {
+  display: block;
+  font-weight: bold;
+}
+
+h5 {
+  display: block;
+  font-size: 0.83em;
+  font-weight: bold;
+}
+
 .flex-container {
   display: flex;
   justify-content: center;
@@ -71,28 +94,30 @@ a {
   height: 200px;
 }
 
-h2, h3, h4 {
-  margin: 0;
-  padding: 10px;
+/* Store Div */
+#store {
+  height: 700px;
+  width: 1000px;
+  margin: auto;
+  padding-top: 70px;
 }
 
-h2 {
+.item {
+  padding: 5px;
+}
+
+.item span {
   display: block;
-  font-size: 1.5em;
+  padding: 5px;
   font-weight: bold;
+  text-align: center;
 }
 
-h4 {
+.item img {
+  height: 200px;
+  margin: 10px;
   display: block;
-  font-weight: bold;
 }
-
-h5 {
-  display: block;
-  font-size: 0.83em;
-  font-weight: bold;
-}
-
 
 /* Footer */
 
